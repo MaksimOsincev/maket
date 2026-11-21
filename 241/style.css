@@ -11,6 +11,9 @@ margin: 200px;
     color: rgb(255, 255, 255);
     background-color: green;
     border: 1px solid green;
+    width: 100px;
+    height: 25px;
+    text-align: center;
 }
 
 
