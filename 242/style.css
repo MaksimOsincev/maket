@@ -1,0 +1,52 @@
+
+
+#wrapper {
+    width: 800px;
+    margin: 30px auto;
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
+}
+
+#menu {
+    display: flex;
+    background-color: #444; 
+}
+
+#menu a {
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    font: bold 14px Arial;
+}
+
+#menu a:hover, #menu a.active {
+    background-color: white;
+    color: #333;
+}
+
+#content {
+    padding: 20px 40px; 
+}
+
+#content h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+
+#content p {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#content p a {
+    color: #0000FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#content p a:hover {
+    text-decoration: underline; 
+}
