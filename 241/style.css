@@ -1,6 +1,6 @@
 #menu {
     display: flex;
-margin: 200px;
+margin: 100px;
 }
 
 #menu a {
@@ -12,12 +12,35 @@ margin: 200px;
     background-color: green;
     border: 1px solid green;
     width: 100px;
-    height: 25px;
+    height: 20px;
     text-align: center;
 }
 
-
 #menu a:hover, #menu a.active {
+    color: green;
+    border: 1px solid green;
+    background-color: white;
+}
+#menu2{
+    display: flex;
+    
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#menu2 a {
+    margin-right: 5px;
+    padding: 10px; 
+    font: 15px Arial;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border: 1px solid green;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+
+#menu2 a:hover, #menu2 a.active {
     color: green;
     border: 1px solid green;
     background-color: white;
